@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout Buku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>BukuKita</h2>
+
+        <a href="dashboard.html">Dashboard</a>
+        <a href="stok.html">Informasi Stok</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="checkout.html">Pemesanan</a>
+        <a href="index.html">Logout</a>
+
+    </nav>
+
+    <main>
+
+        <h1>Form Pemesanan Buku</h1>
+
+        <form id="formPesanan">
+
+            <label for="nama">Nama Pemesan</label>
+            <input
+                type="text"
+                id="nama"
+                required
+            >
+
+            <label for="emailPesan">Email</label>
+            <input
+                type="email"
+                id="emailPesan"
+                required
+            >
+
+            <label for="telepon">Nomor Telepon</label>
+            <input
+                type="text"
+                id="telepon"
+                required
+            >
+
+            <label for="pilihBuku">Pilih Buku</label>
+            <select id="pilihBuku"></select>
+
+            <label for="jumlah">Jumlah Buku</label>
+            <input
+                type="number"
+                id="jumlah"
+                min="1"
+                value="1"
+                required
+            >
+
+            <label for="alamat">Alamat Pengiriman</label>
+
+            <textarea
+                id="alamat"
+                required
+            ></textarea>
+
+            <label for="pembayaran">Metode Pembayaran</label>
+            <select id="pembayaran">
+
+                <option>Transfer Bank</option>
+                <option>E-Wallet</option>
+                <option>COD</option>
+
+            </select>
+
+            <h3>
+                Total:
+                <span id="total">Rp0</span>
+            </h3>
+
+            <button type="submit">
+                Buat Pesanan
+            </button>
+
+        </form>
+
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
