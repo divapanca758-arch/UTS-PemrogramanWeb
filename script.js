@@ -358,3 +358,7 @@ function cariResi() {
     `;
 
 }
+
+File js/script.js — JavaScript Website
+File ini merupakan bagian utama yang mengatur fungsi website.
+   
