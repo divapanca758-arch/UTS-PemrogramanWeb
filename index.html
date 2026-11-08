@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login BukuKita</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="login-container">
+
+        <h1>📚 BukuKita</h1>
+        <h2>Login</h2>
+        <p>Silakan masuk untuk memesan buku.</p>
+
+        <form id="loginForm">
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                placeholder="Masukkan email"
+                required
+            >
+
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                placeholder="Masukkan password"
+                required
+            >
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+        <button onclick="lupaPassword()">
+            Lupa Password?
+        </button>
+
+        <button onclick="daftar()">
+            Daftar
+        </button>
+
+        <p>
+            Demo login:
+            demo@bukukita.com
+        </p>
+
+        <p>
+            Password:
+            12345
+        </p>
+
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
