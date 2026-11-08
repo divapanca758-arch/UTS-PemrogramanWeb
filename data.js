@@ -59,6 +59,7 @@ let dataPesanan = [
     }
 ];
 
+File js/data.js
 File ini digunakan untuk menyimpan data buku dalam bentuk array JavaScript. Data buku nantinya ditampilkan secara dinamis pada halaman katalog.
 Penjelasan
 - dataKatalogBuku merupakan variabel array yang menyimpan data buku.
