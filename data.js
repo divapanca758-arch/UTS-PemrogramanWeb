@@ -58,3 +58,15 @@ let dataPesanan = [
         paket: "Reguler"
     }
 ];
+
+File ini digunakan untuk menyimpan data buku dalam bentuk array JavaScript. Data buku nantinya ditampilkan secara dinamis pada halaman katalog.
+Penjelasan
+- dataKatalogBuku merupakan variabel array yang menyimpan data buku.
+- id digunakan sebagai identitas buku.
+- judul menyimpan nama buku.
+- penulis menyimpan nama penulis.
+- kategori menyimpan kategori buku.
+- harga menyimpan harga buku.
+- stok menyimpan jumlah buku yang tersedia.
+- gambar menyimpan lokasi gambar buku.
+- dataPesanan menyimpan data transaksi yang digunakan untuk tracking dan riwayat.    
