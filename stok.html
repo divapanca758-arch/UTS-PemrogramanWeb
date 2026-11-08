@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Katalog Buku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <h2>BukuKita</h2>
+        
+        <a href="dashboard.html">Dashboard</a>
+        <a href="stok.html">Informasi Stok</a>
+        <a href="tracking.html">Tracking</a>
+        <a href="checkout.html">Pemesanan</a>
+        <a href="index.html">Logout</a>
+
+    </nav>
+
+    <main>
+
+        <h1>Informasi Stok Buku</h1>
+
+        <button onclick="tambahBuku()">
+            Tambah Buku
+        </button>
+
+        <div class="book-container" id="daftarBuku"></div>
+
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
