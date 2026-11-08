@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #263445;
+}
+
+nav {
+    background: #183153;
+    color: white;
+    padding: 20px;
+    width: 220px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav h2 {
+    margin-bottom: 30px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #3568d4;
+}
+
+main {
+    margin-left: 220px;
+    padding: 30px;
+}
+
+h1 {
+    color: #183153;
+}
+
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #00000015;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #3568d4;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #234b9b;
+}
+
+.login-container button {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #183153;
+    color: white;
+}
+
+td,
+th {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.book-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000010;
+}
+
+.book-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.book-card h3 {
+    color: #183153;
+}
+
+.book-card p {
+    font-size: 14px;
+}
+
+.status {
+    background: #e8f7ef;
+    color: #218454;
+    padding: 6px 10px;
+    border-radius: 15px;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+}
+
+textarea {
+    min-height: 90px;
+}
+
+@media (max-width: 700px) {
+
+    nav {
+        position: static;
+        width: 100%;
+        min-height: auto;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    main {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .book-container {
+        grid-template-columns: 1fr;
+    }
+
+    .login-container {
+        width: 90%;
+        margin: 50px auto;
+    }
+}
