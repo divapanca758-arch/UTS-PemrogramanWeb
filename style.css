@@ -177,3 +177,14 @@ textarea {
         margin: 50px auto;
     }
 }
+
+File css/style.css
+File ini digunakan untuk mengatur tampilan website agar lebih menarik, rapi, dan mudah digunakan.
+Penjelasan CSS
+- background digunakan untuk memberikan warna latar belakang.
+- nav digunakan untuk membuat menu navigasi.
+- position: fixed membuat menu berada di sisi kiri halaman.
+- main digunakan untuk mengatur area konten utama.
+- book-container digunakan untuk menampilkan katalog dalam bentuk grid.
+- book-card digunakan untuk membuat kartu buku.
+- @media digunakan agar tampilan website menyesuaikan ukuran layar HP.
